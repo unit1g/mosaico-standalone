@@ -16,7 +16,7 @@ export default {
   users: [
     {
       username: 'admin',
-      password: 'password',
+      password: '$*3O03hnNDTWg9M3*xZ^',
       templates: [
         // a list of the available custom templates (directory name) for the user
       ]
