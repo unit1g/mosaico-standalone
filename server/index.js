@@ -385,7 +385,7 @@ app.post("/dl", dl);
  */
 app.use("/storage", storage);
 
-app.listen(process.env.PORT || 3000, "127.0.0.1", (err) => {
+app.listen(process.env.PORT || 3000, "0.0.0.0", (err) => {
   if (err) return console.error(err);
 
   console.log("Listening on http://localhost:" + (process.env.PORT || 3000));
